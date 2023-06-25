@@ -31,3 +31,9 @@
       width: 1100px;
    }
 }
+
+@include mixins.media-xxl {
+   .container {
+      width: 1300px;
+   }
+}
