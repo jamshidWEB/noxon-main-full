@@ -7,8 +7,9 @@
    grid-template-columns: 1fr 2fr;
    align-items: center;
    justify-content: space-between;
-   padding: 0 40px;
-
+   padding: 0 5px;
+   width: 99%;
+   margin: 0 auto;
 
    &__logo {
       height: 70px;
@@ -36,9 +37,9 @@
 
       &-link {
          color: #fff;
-         font-size: 18px;
+         font-size: 20px;
          padding: 2px 8px;
-         font-weight: 700;
+         font-weight: 600;
          &:hover {
             color: vars.$main-color;
          }
@@ -63,7 +64,7 @@
       }
    }
 }
-
+ 
 .border-bottom {
    border-bottom: 1px solid #fff;
 }
@@ -154,7 +155,19 @@
 .left-5 {
    right: 85% !important;
 }
-
+@include mixins.media-lx{
+   .header{
+      .header-navbar{
+         .header__navbar-list{
+            &__navbar-item{
+               a{
+                  font-size: 25px;
+               }
+            }
+         }
+      }
+   }
+}
 
 @include mixins.media-lg {
    .header {

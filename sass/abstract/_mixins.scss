@@ -9,6 +9,10 @@
    @media screen and (max-width: 768px) {
       @content;
    }
+}@mixin media-md800 {
+   @media screen and (max-width: 868px) {
+      @content;
+   }
 }
 
 @mixin media-lg {
@@ -37,7 +41,7 @@
    }
 }
 @mixin media-2xx  {
-   @media screen and (max-width:1300px) {
+   @media screen and (max-width:1318px) {
       @content;
    }
 }
