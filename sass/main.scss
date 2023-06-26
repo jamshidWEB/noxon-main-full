@@ -1253,6 +1253,17 @@
          left: 34%;
       }
    }
+   .home{
+       .content{
+         width: 100%;
+         h1 {
+            font-size: 44px;
+         }
+         p{
+            font-size: 15px;
+         }
+       } 
+   }
 
    .services {
       &__list {
@@ -1516,6 +1527,37 @@
 
    }
 
+
+   .info {
+      img {
+         width: 40%;
+      }
+
+      .info-content {
+         align-items: center;
+         flex-wrap: wrap;
+
+
+         .info__content {
+            width: 45%;
+            padding: 30px 20px;
+
+            h2 {
+               color: #fff;
+               margin-top: 15px;
+               font-size: 28px;
+               font-weight: 500;
+            }
+
+            p {
+               font-size: 22px;
+               line-height: 1.6;
+               word-spacing: 3px;
+               color: #ffffff6c;
+            }
+         }
+      }
+   }
 }
 
 
@@ -1911,21 +1953,30 @@
    }
 
    .header {
-      padding: 0 8px;
-      font-size: 15px;
+      padding: 0 3px;
+      font-size: 14px;
       width: 95%;
       margin: 0 auto;
       gap: 15px;
 
-    
+
       .flex {
          .header__navbar {
             .header__navbar-list {
                .header__navbar-item {
                   .header__navbar-link {
-                     font-size: 12px;
+                     font-size: 11.5px;
                      font-weight: 900;
                   }
+               }
+            }
+         }
+
+         .header__social-item {
+
+            .header__social-link {
+               i {
+                  font-size: 25px;
                }
             }
          }
@@ -1981,6 +2032,37 @@
       &__right {
          img {
             width: 100%;
+         }
+      }
+   }
+
+   .info {
+      img {
+         width: 47%;
+      }
+
+      .info-content {
+         align-items: center;
+         flex-wrap: wrap;
+
+
+         .info__content {
+            width: 45%;
+            padding: 20px 10px;
+
+            h2 {
+               color: #fff;
+               margin-top: 15px;
+               font-size: 25px;
+               font-weight: 500;
+            }
+
+            p {
+               font-size: 15px;
+               line-height: 1.4;
+               word-spacing: 4px;
+               color: #ffffff6c;
+            }
          }
       }
    }
@@ -2456,7 +2538,8 @@
          p {
             font-size: 23px;
          }
-         img{
+
+         img {
             width: 45%;
          }
       }
