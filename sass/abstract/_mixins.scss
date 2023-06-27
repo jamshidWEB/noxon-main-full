@@ -41,10 +41,36 @@
    }
 }
 @mixin media-2xx  {
-   @media screen and (max-width:1318px) {
+   @media screen and (max-width:1326px) {
       @content;
    }
 }
+@mixin media-3xx  {
+   @media screen and (min-width:1400px) {
+      @content;
+   }
+}
+@mixin media-4xx  {
+   @media screen and (min-width:1550px) {
+      @content;
+   }
+}
+@mixin media-5xx  {
+   @media screen and (min-width:1750px) {
+      @content;
+   }
+}
+@mixin media-6xx  {
+   @media screen and (min-width:3000px) {
+      @content;
+   }
+}
+@mixin media-7xx  {
+   @media screen and (max-width: 3500px) {
+      @content;
+   }
+}
+
 @mixin transition-ease {
    transition: all 1s ease-in-out;
 }

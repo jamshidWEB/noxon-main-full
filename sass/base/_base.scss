@@ -45,3 +45,20 @@ section {
       font-size: 50%;
    }
 }
+
+@include mixins.media-2xx {
+   section {
+      padding: 2rem 4%;
+   }
+
+}
+
+@include mixins.media-2xx {}
+
+@include mixins.media-2xx {}
+
+@include mixins.media-2xx {}
+
+@include mixins.media-2xx {}
+
+@include mixins.media-2xx {}
