@@ -519,13 +519,20 @@ body {
 }
 
 .shape9 {
-   top: 480%;
+   top: 400%;
    left: -10%;
+   width: 25%;
+   filter: blur(170px);
+   height: 85%;
 }
 
 .shape10 {
-   top: 620%;
-   left: 54%;
+   top: 530%;
+   left: 78%;
+   height: 60%;
+   filter: blur(200px);
+   width: 50%;
+
 }
 
 .services {
@@ -761,20 +768,22 @@ body {
          width: 38%;
       }
    }
-}  
-.result>h1{
+}
+
+.result>h1 {
    padding-bottom: 20px !important;
 }
 
 .result {
    margin-top: 50px;
- 
+
    &__list {
       display: flex;
       justify-content: space-between;
       gap: 30px;
       color: #fff;
       width: 100%;
+
       margin: {
          top: 100px;
 
@@ -822,13 +831,23 @@ body {
 }
 
 .connect {
+   width: 90%;
+   margin: 0 auto;
    margin-top: 50px;
    color: #fff;
 
+   .team__center {
+      font-weight: 600 !important;
+      font-size: 40px !important;
+      padding-bottom: 25px;
+   }
+
    &__wrapper {
+
       display: grid;
-      grid-template-columns: 1.2fr 2fr;
-      margin-top: 50px;
+      grid-template-columns: 1.1fr 2fr;
+      gap: 10%;
+      margin-top: 80px;
 
       &>div {
          h2 {
@@ -837,7 +856,7 @@ body {
          }
 
          p {
-            width: 80%;
+            width: 120%;
             font-size: 12.5px;
             letter-spacing: 2px;
             line-height: 30px;
@@ -850,38 +869,63 @@ body {
 
    &__list {
       margin-top: 50px;
+      row-gap: 22px !important;
+      display: grid;
    }
+
+
 
    &__item {
       display: grid;
       margin-bottom: 20px;
       grid-template-columns: .2fr 1fr;
       align-items: center;
-      grid-template-rows: repeat(3, .1fr);
+
+      img {
+         width: 75%;
+      }
 
       h3 {
-         font-size: 21px;
+         font-size: 18px;
          font-weight: 700;
       }
 
       h4 {
-         font-size: 18px;
-         font-weight: 500;
+         font-size: 15px !important;
+         font-weight: 600;
       }
    }
 
+   .item2,
+   .item3 {
+      h4 {
+         font-size: 22px !important;
+      }
+   }
+
+   .item3 {
+      h4 {
+         font-size: 20px !important;
+      }
+   }
+
+
    &__form {
+
       text-align: justify;
+      margin-top: -20px;
 
       input,
       textarea {
          background: #212121;
-         padding: 15px;
+         padding: 10px 0 10px 20px;
          margin: 15px;
          border-radius: 30px;
          resize: none;
          color: #fff;
          font-size: 17px;
+
+         width: 100%;
 
          &:focus {
             background: #7a7a7a8d;
@@ -889,14 +933,19 @@ body {
          }
       }
 
+      textarea {
+         padding-top: 20px;
+      }
+
       .name,
       .number {
          width: 45%;
+
       }
 
       .theme,
       .message {
-         width: 98%;
+         width: 96.5%;
       }
 
       .home__link {
@@ -906,7 +955,7 @@ body {
          button {
             border: 2px solid vars.$main-color;
             position: relative;
-            padding: 10px 70px 10px 50px;
+            padding: 12px 70px 12px 50px;
             font-size: 17px;
             font-weight: 600;
 
@@ -916,7 +965,7 @@ body {
                right: 0px;
                top: 0;
                background: vars.$main-color;
-               width: 50px;
+               width: 45px;
                height: 100%;
                border-radius: 30px;
                display: flex;
@@ -1180,9 +1229,10 @@ body {
 
    &__item {
       img {
-         height: 70px;
+         height: 65px;
       }
    }
+
 }
 
 
