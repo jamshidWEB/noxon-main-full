@@ -768,22 +768,30 @@ body {
          width: 38%;
       }
    }
+<<<<<<< HEAD
 }
 
 .result>h1 {
+=======
+}  
+.result>h1{
+>>>>>>> ea1f1663c59fae97c4f0369489e53389ded33daa
    padding-bottom: 20px !important;
 }
 
 .result {
    margin-top: 50px;
-
+ 
    &__list {
       display: flex;
       justify-content: space-between;
       gap: 30px;
       color: #fff;
       width: 100%;
+<<<<<<< HEAD
 
+=======
+>>>>>>> ea1f1663c59fae97c4f0369489e53389ded33daa
       margin: {
          top: 100px;
 
